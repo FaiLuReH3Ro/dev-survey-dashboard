@@ -2,7 +2,7 @@
 
 This dashboard was created with the Dash Python framework. 
 
-While this project is not officially part of the [IBM Data Analyst Capstone - Python](https://github.com/FaiLuReH3Ro/ibm-da-capstone-py) project, the dataset used in the dashboard comes directly from the [Data Wrangling](https://github.com/FaiLuReH3Ro/data-wrangling-py) section.
+While this project is not officially part of the [IBM Data Analyst Capstone - Python](https://github.com/FaiLuReH3Ro/ibm-da-capstone-py) project, the dataset used in this dashboard comes directly from the [Data Wrangling](https://github.com/FaiLuReH3Ro/data-wrangling-py) section.
 
 ## Objectives
 
@@ -20,6 +20,10 @@ Stack Overflow’s global survey captures insights on developers’ experience, 
 
 > Note: This CSV is a subset of the original data
 
-[]
+[Clean Dataset](https://github.com/FaiLuReH3Ro/data-wrangling-py/blob/main/clean_survey_data.csv) (File on GitHub)
+
+> Note: This is the CSV file post data wrangling 
 
 [Original Source](https://stackoverflow.blog/2024/08/06/2024-developer-survey/) (Stack Overflow)
+
+## Dashboard
