@@ -34,10 +34,6 @@ employments = list(employ.sort_values().unique())
 # Create a list of Developer Status
 dev_status = list(data['MainBranch'].unique())
 
-# Create a range of Years coding 
-years_code = list(range(0, 51))
-
-
 # Make a copy of the original data
 df = data.copy()
 
@@ -547,6 +543,7 @@ def get_plots(tab, age, ed_level, employ_status, dev_status, years_code):
 # Run the app
 if __name__ == '__main__':
     app.run()
+
 
 
 
