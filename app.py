@@ -14,6 +14,7 @@ data = pd.read_csv('clean_survey_data.csv')
 # Create the app 
 dbc_css = "https://cdn.jsdelivr.net/gh/AnnMarieW/dash-bootstrap-templates/dbc.min.css"
 app = Dash(__name__, external_stylesheets=[dbc.themes.MINTY, dbc_css, dbc.icons.BOOTSTRAP])
+server = app.server
 app.title = "Dev Survey Dashboard"
 
 # Create list of age ranges
@@ -546,6 +547,7 @@ def get_plots(tab, age, ed_level, employ_status, dev_status, years_code):
 # Run the app
 if __name__ == '__main__':
     app.run()
+
 
 
 
