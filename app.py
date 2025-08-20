@@ -34,8 +34,13 @@ employments = list(employ.sort_values().unique())
 # Create a list of Developer Status
 dev_status = list(data['MainBranch'].unique())
 
-# Make a copy of the original data
-df = data.copy()
+# Make a copy of the original data and include only targeted columns
+df = data[['MainBranch', 'Age', 'Employment', 
+           'EdLevel', 'YearsCode', 'Country', 
+           'LanguageHaveWorkedWith', 'LanguageWantToWorkWith', 'DatabaseHaveWorkedWith',
+           'DatabaseWantToWorkWith', 'PlatformHaveWorkedWith', 'PlatformWantToWorkWith',
+           'WebframeHaveWorkedWith', 'WebframeWantToWorkWith', 'ToolsTechHaveWorkedWith',
+           'ToolsTechWantToWorkWith', 'NEWCollabToolsHaveWorkedWith', 'NEWCollabToolsWantToWorkWith']].copy()
 
 # Explode the employment column
 df['Employment'] = df['Employment'].str.split(";")
@@ -543,6 +548,7 @@ def get_plots(tab, age, ed_level, employ_status, dev_status, years_code):
 # Run the app
 if __name__ == '__main__':
     app.run()
+
 
 
 
