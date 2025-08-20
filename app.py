@@ -50,7 +50,7 @@ df = df.explode('Employment')
 app.layout = dbc.Container(children=[
     
     # Heading
-    html.H1("2024 Stack Overflow Developer Survey Results", className='mb-4'),
+    html.H1("Stack Overflow Developer Survey Results", className='mb-4'),
 
     # Toggle Filters Button
     dbc.Button([html.I(className='bi bi-filter me-2'),"Filters"], 
@@ -548,6 +548,7 @@ def get_plots(tab, age, ed_level, employ_status, dev_status, years_code):
 # Run the app
 if __name__ == '__main__':
     app.run()
+
 
 
 
