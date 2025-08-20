@@ -20,7 +20,7 @@ Stack Overflow’s global survey captures insights on developers’ experience, 
 
 > Note: This CSV is a subset of the original data
 
-[Clean Dataset](https://github.com/FaiLuReH3Ro/data-wrangling-py/blob/main/clean_survey_data.csv) (File on GitHub)
+[Clean Dataset](https://github.com/FaiLuReH3Ro/dev-survey-dashboard/blob/main/clean_survey_data.csv) (File on GitHub)
 
 > Note: This is the CSV file post data wrangling 
 
