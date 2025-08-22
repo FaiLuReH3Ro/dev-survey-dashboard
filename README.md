@@ -4,6 +4,14 @@ This dashboard was created with the Dash Python framework.
 
 While this project is not officially part of the [IBM Data Analyst Capstone - Python](https://github.com/FaiLuReH3Ro/ibm-da-capstone-py) project, the dataset used in this dashboard comes directly from the [Data Wrangling](https://github.com/FaiLuReH3Ro/data-wrangling-py) section.
 
+## Dashboard
+
+Click on the link below to access the dashboard. 
+
+> Plots might take a while to update since the dataset is quite large
+
+[Stack Overflow Survey Dashboard](https://dev-survey-dashboard.onrender.com/)
+
 ## Objectives
 
 The goal with this dashboard is to help answer the same questions as in the `IBM Data Analyst Capstone - Python` project.
@@ -14,7 +22,7 @@ The goal with this dashboard is to help answer the same questions as in the `IBM
 
 ## Dataset Used
 
-Stack Overflow’s global survey captures insights on developers’ experience, tools, technologies, and preferences, offering a snapshot of the software development landscape.
+The primary dataset used is the 2024 Stack Overflow global survey. Stack Overflow is a Q&A website for programmers where developers ask coding questions and get answers from the community. The survey aims to capture insights on developers’ experience, tools, technologies, and preferences, offering a snapshot of the software development landscape.
 
 [Untouched Dataset](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/n01PQ9pSmiRX6520flujwQ/survey-data.csv) (Downloads a CSV)
 
@@ -25,11 +33,3 @@ Stack Overflow’s global survey captures insights on developers’ experience, 
 > Note: This is the CSV file post data wrangling 
 
 [Original Source](https://stackoverflow.blog/2024/08/06/2024-developer-survey/) (Stack Overflow)
-
-## Dashboard
-
-Click on the link below to access the dashboard. 
-
-> Plots might take a while to update since the dataset is quite large
-
-[Stack Overflow Survey Dashboard](https://dev-survey-dashboard.onrender.com/)
