@@ -16,6 +16,8 @@ Click on the link below to access the dashboard.
 
 The goal with this dashboard is to help answer the same questions as in the `IBM Data Analyst Capstone - Python` project.
 
+Technology skills evolve quickly, making it difficult for companies to align talent with demand. IT consulting firms must stay competitive by understanding emerging tech skills. I aim to help organizations focus hiring, training, and investments in the right areas by providing data-driven insights and predictive analysis into which programming languages, databases, and tools are most in demand.
+
 * Which programming languages are most in demand?
 * Which database technologies are currently most sought after?
 * Which Integrated Development Environments (IDEs) are the most popular?
