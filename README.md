@@ -6,9 +6,8 @@ While this project is not officially part of the [IBM Data Analyst Capstone - Py
 
 ## 📊 Dashboard
 
-Click on the link below to access the dashboard. 
-
-> Plots might take a while to update since the dataset is quite large
+> [!NOTE]
+> Click on the link below to access the dashboard. 
 
 👉 [Stack Overflow Survey Dashboard](https://failureh3ro-developer-survey-results.share.connect.posit.cloud/)
 
@@ -26,12 +25,14 @@ Technology skills evolve quickly, making it difficult for companies to align tal
 
 The primary dataset used is the 2024 Stack Overflow global survey. Stack Overflow is a Q&A website for programmers where developers ask coding questions and get answers from the community. The survey aims to capture insights on developers’ experience, tools, technologies, and preferences, offering a snapshot of the software development landscape.
 
+> [!NOTE]
+> This CSV is a subset of the original data
+
 📌 [Untouched Dataset](https://www.kaggle.com/datasets/failureh3ro/stack-overflow-survey-data-2024-subset) (Kaggle)
 
-> Note: This CSV is a subset of the original data
+> [!NOTE]
+> This is the CSV file post data wrangling
 
 📌 [Clean Dataset](https://www.kaggle.com/datasets/failureh3ro/stack-overflow-survey-2024-cleaned-data) (Kaggle)
-
-> Note: This is the CSV file post data wrangling 
 
 📌 [Original Source](https://stackoverflow.blog/2024/08/06/2024-developer-survey/) (Stack Overflow)
